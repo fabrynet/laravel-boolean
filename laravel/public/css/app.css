@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container header {
+  text-align: center;
+  height: 300px;
+  background-color: coral;
+}
+
+.container main {
+  height: 500px;
+  background-color: green;
+}
+
+.container footer {
+  height: 300px;
+  background-color: coral;
+}
+

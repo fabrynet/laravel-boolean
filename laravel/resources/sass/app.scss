@@ -1,1 +1,30 @@
-//
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+
+  width: 80%;
+  margin: 0 auto;
+
+
+  header {
+    text-align: center;
+    // debug
+    height: 300px;
+    background-color: coral;
+  }
+  main {
+    // debug
+    height: 500px;
+    background-color: green;
+  }
+  footer {
+
+    // debug
+    height: 300px;
+    background-color: coral;
+  }
+}
