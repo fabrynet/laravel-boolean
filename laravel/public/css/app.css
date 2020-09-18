@@ -4,20 +4,51 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  background-color: #fff;
+  color: #636b6f;
+  font-family: "Nunito", sans-serif;
+  font-weight: 200;
+  margin: 0;
+}
+
+.links a {
+  color: #636b6f;
+  padding: 0 25px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 .container {
   width: 80%;
   margin: 0 auto;
 }
 
 .container header {
-  text-align: center;
   height: 300px;
-  background-color: coral;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.container main {
-  height: 500px;
-  background-color: green;
+.container header ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container main h1 {
+  margin: 20px 0;
+}
+
+.container main img {
+  width: calc(100% / 4);
 }
 
 .container footer {

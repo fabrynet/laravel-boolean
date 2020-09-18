@@ -1,7 +1,40 @@
+$base-color: #636b6f;
+
+@mixin flex-center-h {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-center-v {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html, body {
+    background-color: #fff;
+    color: $base-color;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    margin: 0;
+}
+
+.links a {
+    color: $base-color;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .container {
@@ -11,15 +44,29 @@
 
 
   header {
-    text-align: center;
-    // debug
     height: 300px;
-    background-color: coral;
+
+    @include flex-center-v;
+
+    ul {
+      list-style-type: none;
+
+      @include flex-center-h;
+    }
+
+    // debug
+    // background-color: coral;
   }
   main {
+    h1 {
+      margin: 20px 0;
+    }
+    img {
+      width: calc(100% / 4);
+    }
     // debug
-    height: 500px;
-    background-color: green;
+    // height: 500px;
+    // background-color: green;
   }
   footer {
 
