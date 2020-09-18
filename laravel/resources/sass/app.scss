@@ -68,10 +68,22 @@ html, body {
     h1 {
       margin: 20px 0;
     }
-    img {
+    .product {
       padding: 10px;
       float: left;
       width: calc(100% / 3);
+    }
+    .product > img {
+      width: 100%;
+    }
+    .product > .title {
+      text-align: center;
+      font-size: 13px;
+      font-weight: 600;
+      padding: 5px 0;
+    }
+    .product > .description ul {
+      list-style: none;
     }
     // debug
     // height: 500px;

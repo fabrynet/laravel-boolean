@@ -54,10 +54,25 @@ body {
   margin: 20px 0;
 }
 
-.container main img {
+.container main .product {
   padding: 10px;
   float: left;
   width: calc(100% / 3);
+}
+
+.container main .product > img {
+  width: 100%;
+}
+
+.container main .product > .title {
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 5px 0;
+}
+
+.container main .product > .description ul {
+  list-style: none;
 }
 
 .container footer {
