@@ -23,6 +23,12 @@ body {
   text-transform: uppercase;
 }
 
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .container {
   width: 80%;
   margin: 0 auto;
@@ -41,6 +47,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .container main h1 {
@@ -48,7 +55,9 @@ body {
 }
 
 .container main img {
-  width: calc(100% / 4);
+  padding: 10px;
+  float: left;
+  width: calc(100% / 3);
 }
 
 .container footer {
