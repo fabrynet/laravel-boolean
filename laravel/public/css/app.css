@@ -10,7 +10,6 @@ body {
   color: #636b6f;
   font-family: "Nunito", sans-serif;
   font-weight: 200;
-  margin: 0;
 }
 
 .links a {
@@ -76,7 +75,21 @@ body {
 }
 
 .container footer {
-  height: 300px;
-  background-color: coral;
+  padding: 20px 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.container footer h1 {
+  margin: 20px 0;
+}
+
+.container footer .column {
+  width: calc(100% / 3);
+}
+
+.container footer .column ul {
+  list-style: none;
 }
 
