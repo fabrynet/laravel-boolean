@@ -93,3 +93,7 @@ body {
   list-style: none;
 }
 
+.container footer .column ul li {
+  padding: 5px 0;
+}
+
