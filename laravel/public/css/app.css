@@ -41,6 +41,11 @@ body {
   justify-content: space-around;
 }
 
+.container header a:hover {
+  color: black;
+  transition: 0.5s;
+}
+
 .container header ul {
   list-style-type: none;
   display: flex;
@@ -83,6 +88,11 @@ body {
 
 .container footer h1 {
   margin: 20px 0;
+}
+
+.container footer a:hover {
+  color: black;
+  transition: 0.5s;
 }
 
 .container footer .column {

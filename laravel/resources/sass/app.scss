@@ -54,6 +54,11 @@ html, body {
 
     @include flex-center-v;
 
+    a:hover {
+      color: black;
+      transition: .5s;
+    }
+
     ul {
       list-style-type: none;
 
@@ -94,6 +99,11 @@ html, body {
 
     h1 {
       margin: 20px 0;
+    }
+
+    a:hover {
+      color: black;
+      transition: .5s;
     }
 
     display: flex;
